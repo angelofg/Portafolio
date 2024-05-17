@@ -1,0 +1,19 @@
+footer.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer{
+    height: 50px;
+    margin: 25px 15px;
+}
+
+.footer__rodape{
+   text-align: center;
+}
+
+.footer__rodape p {
+    margin: 5px;
+}

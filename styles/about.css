@@ -1,0 +1,56 @@
+section.about{
+    height: 250px;
+    background-color: rgb(220, 240, 260);
+    padding: 10px 30px;
+}
+
+.about__title{
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.about__paragraph{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.about__container img {
+    margin: 15px 0 50px 0;
+}
+
+@media (min-width:768px) {
+    section.about{
+        height: 220px;
+    }
+
+    .about__title{
+        font-size: 25px;
+    }
+}
+
+@media (min-width:1024px){
+
+}
+
+@media (min-width: 1440px){
+    section.about{
+        height: 330px;
+    }
+
+    .about__container{
+        width: 60%;
+        margin-left: 130px;
+        
+    }
+
+    .about__title{
+
+    }
+
+    .about__paragraph{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+}
+

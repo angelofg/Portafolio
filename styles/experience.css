@@ -1,0 +1,117 @@
+section.experience{
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 30px 40px;
+}
+
+.experience__section__title{
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+.experience__box{
+    display: block;
+    height: 320px;
+}
+
+.experience__img{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    width: 350px;
+}
+
+.experience__info{
+    height: 50px;
+}
+
+.experience__title{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.experience__text{
+    margin-top: 10px;
+}
+
+.experience__description{
+    margin-top: 10px;
+}
+
+.experience__repo button{
+    height: 35px;
+    width: 100px;
+    font-size: 12px;
+    cursor: pointer;
+    display: inline-block;
+    color: #4e89dc;
+    background-color: inherit;
+    border: 1.5px solid;
+}
+
+.experience__demo button{
+    height: 35px;
+    width: 100px;
+    margin-left: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    background-color: rgb(46, 125, 227);
+    border: 1.5px solid;
+    border-color: rgb(46, 125, 227);
+}
+
+@media (min-width:768px){
+    section.experience{
+        padding: 15px 40px;
+    }
+
+    .experience__box{
+        height: 420px;
+        width: 800px;
+    }
+    .experience__img{
+        height: 300px;
+        width: 84%;
+    }
+
+    .experience__info{
+        height: 50px;
+    }
+}
+@media (min-width:1440px){
+    section.experience{
+        
+    }
+    .experience__section__title{
+        margin-bottom: 0;
+    }
+
+    .experience__box{
+        display: flex;
+        width: 80%;
+        height: 450px;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .experience__img{
+        height: 400px;
+        width: 715px;
+        margin-left: 110px;
+    }
+
+    .experience__info{
+        height: 100px;
+        margin-left: 0;
+    }
+
+    .experience__description{
+        margin-top: 10px;
+    }
+}
