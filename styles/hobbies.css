@@ -24,6 +24,8 @@ section.hobbies{
     background: white;
     height: 130px;
     width: 175px;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 5%);
+    border-radius: 20px;
 }
 
 .hobbies__box ul{
@@ -92,7 +94,7 @@ section.hobbies{
 
 @media(min-width:1440px){
     section.hobbies{
-        height: 280px;
+        height: 100%;
         width: 100%;
     }
 
@@ -102,17 +104,18 @@ section.hobbies{
     }
 
     .hobbies__line{
-        flex-flow: nowrap;
+        flex-flow: wrap;
         gap: 15px;
     }
 
     .hobbies__box{
         height: 150px;
-        width: 180px;
+        width: 250px;
+        margin-bottom: 25px;
     }
 
     .hobbies__box ul{
-        width: 80%;
+        width: 90%;
     }
 
     .hobbies__img{

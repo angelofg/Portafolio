@@ -1,6 +1,6 @@
 section.contact{
     height: 550px;
-    background-color: rgb(220, 240, 260);
+    background-color: #e6eaea;
 }
 
 .formcontato__contacto{
@@ -9,6 +9,7 @@ section.contact{
 
 .formcontato--esquerda{
     display: none;
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
 .formcontato__text{
@@ -27,16 +28,27 @@ section.contact{
     flex-direction: column;
 }
 .formcontato__input{
-    margin: 14px 30px;
+    margin: 15px 30px;
     height: 35px;
     border: none;
     border-radius: 5px 5px 0 0;
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.2);
+    outline-color: #a7aaaa;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #626464;
 }
 .formcontato__textarea{
     margin: 15px 30px;
     height: 130px;
     border: none;
     border-radius: 5px 5px 0 0;
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.2);
+    outline-color: #a7aaaa;
+    padding: 5px 10px;
+    resize: none;
+    font-size: 16px;
+    color: #626464;
 }
 .formcontato__boton{
     margin: 10px 30px;
@@ -49,11 +61,13 @@ section.contact{
     background-color: rgb(46, 125, 227);
     border: 1.5px solid;
     border-color: rgb(46, 125, 227);
+    border-radius: 5px;
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
 .formcontato__boton:hover{
     transform: scale(1.1);
-    border-radius: 2px;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 10%);
 }
 
 @media (min-width: 768px){

@@ -1,6 +1,6 @@
 section.education{
     display: block;
-    background-color: rgb(220, 240, 260);
+    background-color: #e6eaea;
     height: 100%;
     width: 100%;
     padding: 30px 0 40px 0;
@@ -22,8 +22,9 @@ section.education{
 
 .academic__courses__box{
     display: flex;
-    background-color: rgb(220, 240, 260);
+    background-color: #e6eaea;
     width: 350px;
+    
 }
 
 .academic__courses__item__img{
@@ -33,6 +34,8 @@ section.education{
     width: 350px;
     height: 150px;
     background: white;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 10%);
+    border-radius: 20px;
 }
 
 .academic__courses__item__img img{

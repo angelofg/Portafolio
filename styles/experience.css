@@ -20,6 +20,8 @@ section.experience{
 .experience__img{
     display: flex;
     justify-content: center;
+    box-shadow: 7px 0px 25px rgba(0, 0, 0, 20%);
+    border-radius: 20px;
     height: 150px;
     width: 350px;
 }
@@ -50,6 +52,12 @@ section.experience{
     color: #4e89dc;
     background-color: inherit;
     border: 1.5px solid;
+    border-radius: 5px;
+}
+
+.experience__repo button:hover{
+    transform: scale(1.1);
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 10%);
 }
 
 .experience__demo button{
@@ -62,7 +70,13 @@ section.experience{
     color: white;
     background-color: rgb(46, 125, 227);
     border: 1.5px solid;
+    border-radius: 5px;
     border-color: rgb(46, 125, 227);
+}
+
+.experience__demo button:hover{
+    transform: scale(1.1);
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 10%);
 }
 
 @media (min-width:768px){
