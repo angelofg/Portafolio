@@ -1,17 +1,29 @@
 section.about{
     height: 250px;
-    background-color: #e6eaea;
+    background-color: #030303;
+    /*background-color: #0d1c1c;*/
+    /*background-color: #03221f;*/
     padding: 10px 30px;
+    filter: brightness(0.5) saturate(0.5) contrast(1.2) blur(2px);
+}
+
+section.about:hover{
+    filter: none;
+    transition: filter 100ms linear, transform 100ms linear ;
+    
 }
 
 .about__title{
     font-weight: bold;
     margin: 15px 0;
+    color: #6ACFC7;
 }
 
 .about__paragraph{
     font-size: 12px;
     margin-bottom: 10px;
+    color: #6ACFC7;
+    /*color: #0C1A1A;*/
 }
 
 .about__container img {

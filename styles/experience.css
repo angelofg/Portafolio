@@ -3,6 +3,14 @@ section.experience{
     height: 100%;
     width: 100%;
     padding: 30px 40px;
+    /*background-color: #0d1c1c;*/
+    background-color: #030303;
+    filter: brightness(0.5) saturate(0.5) contrast(1.2) blur(2px);
+}
+
+section.experience:hover{
+    filter: none;
+    transition: filter 100ms linear, transform 100ms linear ;  
 }
 
 .experience__section__title{
@@ -20,10 +28,17 @@ section.experience{
 .experience__img{
     display: flex;
     justify-content: center;
-    box-shadow: 7px 0px 25px rgba(0, 0, 0, 20%);
+    /*box-shadow: 7px 0px 25px rgba(0, 0, 0, 20%);*/
     border-radius: 20px;
     height: 150px;
     width: 350px;
+    filter: brightness(0.5) saturate(0.5) contrast(1.2) blur(2px);
+}
+
+.experience__img:hover{
+    filter: none;
+    transition: filter 200ms linear, transform 200ms linear ;
+    box-shadow: 2px 0px 15px rgba(124, 238, 207, 0.708);
 }
 
 .experience__info{
@@ -33,6 +48,7 @@ section.experience{
 .experience__title{
     font-weight: bold;
     margin-top: 10px;
+    font-size: 16px;
 }
 
 .experience__text{
@@ -49,7 +65,7 @@ section.experience{
     font-size: 12px;
     cursor: pointer;
     display: inline-block;
-    color: #4e89dc;
+    color: #6ACFC7;
     background-color: inherit;
     border: 1.5px solid;
     border-radius: 5px;
@@ -57,7 +73,8 @@ section.experience{
 
 .experience__repo button:hover{
     transform: scale(1.1);
-    box-shadow: 7px 7px 15px rgba(0, 0, 0, 10%);
+    /*box-shadow: 7px 7px 15px rgba(0, 0, 0, 10%);*/
+    box-shadow: 2px 0px 15px rgba(124, 238, 207, 0.708);
 }
 
 .experience__demo button{
@@ -67,16 +84,18 @@ section.experience{
     font-size: 12px;
     cursor: pointer;
     display: inline-block;
-    color: white;
-    background-color: rgb(46, 125, 227);
+    color: #6ACFC7;
+    background: inherit;
+    /*background-color: rgb(46, 125, 227);*/
     border: 1.5px solid;
     border-radius: 5px;
-    border-color: rgb(46, 125, 227);
+    /*border-color: rgb(46, 125, 227);*/
 }
 
 .experience__demo button:hover{
     transform: scale(1.1);
-    box-shadow: 7px 7px 15px rgba(0, 0, 0, 10%);
+    /*box-shadow: 7px 7px 15px rgba(0, 0, 0, 10%);*/
+    box-shadow: 2px 0px 15px rgba(124, 238, 207, 0.708);
 }
 
 @media (min-width:768px){

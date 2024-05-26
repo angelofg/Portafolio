@@ -3,6 +3,15 @@ section.skills{
     height: 100%;
     width: 100%;
     padding: 30px 0;
+    /*background-color: #e6eaea;*/
+    background-color: #0C1A1A;
+    filter: brightness(0.5) saturate(0.5) contrast(1.2) blur(2px);
+}
+
+section.skills:hover{
+    filter: none;
+    transition: filter 100ms linear, transform 100ms linear ;
+
 }
 
 .skills__title{
@@ -21,10 +30,13 @@ section.skills{
 
 .skills__box{
     display: flex;
-    background: white;
+    /*background: white;*/
+    background-color: #022323;
+    
     height: 130px;
     width: 175px;
-    box-shadow: 7px 7px 15px rgba(0, 0, 0, 5%);
+    /*box-shadow: 7px 7px 15px rgba(0, 0, 0, 5%);*/
+    box-shadow: 2px 0px 15px rgba(124, 238, 207, 0.708);
     border-radius: 20px;
 }
 

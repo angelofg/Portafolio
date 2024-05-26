@@ -4,6 +4,7 @@ section.menu{
     justify-content: space-between;
     height: 80px;
     padding: 0 20px;
+    background-color: #0C1A1A;
 }
 
 .menu__header{
@@ -22,8 +23,19 @@ section.menu{
 }
 
 .menu__list li a {
-    color: #464646;
+    /*color: #464646;*/
+    color: #6ACFC7;
 }
+
+.menu__list li a:hover{
+    border-radius: 7px;
+    box-shadow: 0px -30px 15px rgba(124, 238, 208, 0.123);
+}
+
+.menu__list__item__contato:hover{
+    border-radius: 7px;
+    box-shadow: 0px -30px 15px rgba(124, 238, 208, 0.123);
+  }
 
 @media (min-width: 1440px){
     .menu__header{

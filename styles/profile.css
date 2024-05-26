@@ -1,7 +1,8 @@
 section.profile{
     display: flex;
-    height: 300px;
+    height: 100%;
     padding: 10px 30px; 
+    background-color: #0C1A1A;
  }
  
  .title__div{
@@ -14,6 +15,8 @@ section.profile{
     border-radius: 60%;
     width: 100px;
     height: 100px;
+    opacity: 70%;
+    box-shadow: 0px 0px 10px rgba(124, 238, 207, 0.708);
  }
  
  .title__container{
@@ -23,11 +26,11 @@ section.profile{
  }
  
  .title__bio{
-     font-size: 20px;
+     font-size: 10px;
      margin-top: auto;
      font-weight: bold;
  }
- 
+
  .title__subsection{
      font-size: 12px;
      margin-top: 15px;
@@ -42,9 +45,11 @@ section.profile{
      margin: 20px 0;
  }
 
-@media (min-width:360px){
+ .title__network__item:hover{
+   border-radius: 7px;
+   box-shadow: 0px -8px 15px rgba(124, 238, 208, 0.123);
+ }
 
-} 
 
 @media (min-width:768px) {
    section.profile{
